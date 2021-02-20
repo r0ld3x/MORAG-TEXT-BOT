@@ -1,0 +1,29 @@
+{
+    "name": "MORAG-TEXT-BOT",
+    "description": "A PHP Telegram Bot To make Your Text into Voice.",
+    "keywords": [
+        "text",
+        "Telegram",
+        "Bot"
+    ],
+    "logo": "https://telegra.ph/file/2ebd844b4c5ef8c458b8c.jpg",
+    "repository": "https://github.com/r0ld3x/MORAG-TEXT-BOT",
+    "success_url": "/bot.php",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "your Telegram Bot Token, from @BotFather"
+        },"BOT_USER_NAME": {
+            "description": "your Telegram Bot Username"
+        },
+        "START_MESSAGE": {
+            "description": "A start message for your bot."
+        }
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "image": "heroku/php"
+}
